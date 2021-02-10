@@ -26,7 +26,7 @@ const sequelize = nodeEnv === 'test' ?
         dialect: 'postgres',
     });
 
-const SensorData = sequelize.define('sensor-data',{
+const SensorData = sequelize.define('sensorData',{
     serial: {
         type: DataTypes.STRING,
         allowNull: false
